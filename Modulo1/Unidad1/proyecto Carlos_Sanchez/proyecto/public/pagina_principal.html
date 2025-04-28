@@ -1,20 +1,80 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <title>Ejemplo de Uso de Titulo</title>
-    </head>
-    <body>
-        <h1 align="center">ESTUDIO 616</h1>
-        <p align="center"><b>Bienvenido al Estudio 616</b></p>
-        <p align="center"><b>esperamos que disfrutes tu experiencia</b></p>
-        <h2>Servicios</h2>
-            <ol>
-                <li>Diseño 3D</li>
-                <li>Diseño de Interiores</li>
-                <li>Realidad Virtual</li>
-            </ol>
-        <img src="./img/imagenlocal.png" alt="negocio" width="500" height="300">
-        <h2>Redes</h2>
-    <a href="https://www.instagram.com/616_estudio_arq/">Instagram Estudio_616</a>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudio 616 - Arquitectura</title>
+    <link rel="stylesheet" href="css/diseño.css">
+</head>
+<body>
+
+<header>
+    <div class="contenedor">
+        <h1>Estudio 616</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Proyectos</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section id="inicio" class="seccion bienvenida">
+    <div class="contenedor">
+        <h2>Bienvenido a Estudio 616</h2>
+        <p>Especialistas en arquitectura moderna, diseño y construcción de espacios innovadores. Creamos proyectos que reflejan estética, funcionalidad y sostenibilidad.</p>
+        <a href="https://www.google.com/search?q=Estudio+616" target="_blank" class="boton">Buscar Estudio 616 en Google</a>
+    </div>
+</section>
+
+<section id="servicios" class="seccion">
+    <div class="contenedor">
+        <h2>Nuestros Proyectos</h2>
+        <p>Diseño arquitectónico, remodelaciones, urbanismo, interiores y consultoría en construcción.</p>
+    </div>
+</section>
+
+<section id="galeria" class="seccion galeria">
+    <div class="contenedor">
+        <h2>Galería de Trabajos</h2>
+        <div class="grid-galeria">
+            <img src="img/sala.jpg" alt="sala">
+            <img src="img/2.jpg" alt="2">
+            <img src="img/3.jpg" alt="3">
+            <img src="img/4.jpg" alt="4">
+        </div>
+    </div>
+</section>
+
+<section id="contacto" class="seccion contacto">
+    <div class="contenedor">
+        <h2>Contacto</h2>
+        <form action="#">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo" placeholder="Tu correo" required>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" placeholder="Tu teléfono">
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí" required></textarea>
+
+            <button type="submit" class="boton">Enviar</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <div class="contenedor">
+        <p>&copy; 2025 Estudio 616 - Todos los derechos reservados</p>
+    </div>
+</footer>
+
+</body>
 </html>
