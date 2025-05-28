@@ -16,4 +16,5 @@ export class CreateClientDto {
   @IsNotEmpty()
   @IsString()
   direccion: string;
+  
 }
