@@ -1,0 +1,43 @@
+responsirve.css .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aquamarine;
+    padding: 10px;
+}
+.menu div {
+    margin: 10px 0;
+}
+/* Tablet: desde 601px hasta 1024px */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .menu {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 15px 30px;
+    }
+    .menu div{
+        margin: 0 10px;
+    }
+}
+/* Deskop: mas de 1024px*/
+@media (min-width: 1025px) {
+    .menu {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px 50px;
+    } 
+    .menu div{
+        margin: 0 20px;
+    }
+}
+
+.container{
+    width: 80%;
+    font-size: 2vw;
+    background-color: greenyellow;
+}
+
+h1 {
+    font-size: 40px;
+    color:blue;
+}
