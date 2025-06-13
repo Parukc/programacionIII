@@ -17,6 +17,6 @@ async function bootstrap() {
   app.useStaticAssets(join(__dirname, '..', 'public')); // 👈 Habilita acceso público a /public
   app.enableCors();
 
-  await app.listen(3000);
+  await app.listen(3003);
 }
 bootstrap();
